@@ -1,0 +1,54 @@
+Student
+Name: John Doe, Age: 20
+Actor
+Student
+Name: Jane Smith, Age: 25
+Movie: Action Movie
+KvnParticipant
+Actor
+Student
+Name: Bob Johnson, Age: 22
+Movie: Comedy Movie
+Team: Funny Team
+Student
+Name: John Doe, Age: 20
+Actor
+Student
+Name: Jane Smith, Age: 25
+Movie: Action Movie
+KvnParticipant
+Actor
+Student
+Name: Bob Johnson, Age: 22
+Movie: Comedy Movie
+Team: Funny Team
+Student
+Name: Тарас, Age: 22
+Actor
+Student
+Name: Тарас, Age: 22
+Movie: Ф?льм
+KvnParticipant
+Actor
+Student
+Name: Тарас, Age: 22
+Movie: Ф?льм
+Team: Комед?
+
+Student
+Name: Тарас, Age: 22
+
+Actor
+
+Student
+Name: Роб, Age: 33
+Movie: Ф?льм
+
+KvnParticipant
+
+Actor
+
+Student
+Name: Каи, Age: 44
+Movie: кен
+Team: кенкнннн
