@@ -5,10 +5,10 @@ using namespace std;
 Student::Student(const string& name, int age) : name(name), age(age) {}
 
 void Student::display() {
-    cout << "Ім'я: " << name << ", Вік: " << age << endl;
+    cout << "Name: " << name << ", Age: " << age << endl;
 }
 
 void Student::writeToFile(ofstream& file) {
-    file << "Студент" << endl;
-    file << "Ім'я: " << name << ", Вік: " << age << endl;
+    file << "Student" << endl;
+    file << "Name: " << name << ", Age: " << age << endl;
 }

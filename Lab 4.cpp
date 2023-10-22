@@ -8,29 +8,29 @@ int main() {
     string name, movie, team;
     int age;
 
-    cout << "Введіть ім'я студента: ";
+    cout << "Enter the student's name: ";
     cin >> name;
-    cout << "Введіть вік студента: ";
+    cout << "Enter the age of the student: ";
     cin >> age;
     Student student(name, age);
     cout << endl;
 
-    cout << "Введіть імя атора: ";
+    cout << "Enter the actor's name: ";
     cin >> name;
-    cout << "Введіть вік актора: ";
+    cout << "Enter the actor's age: ";
     cin >> age;
-    cout << "Введіть назву фільму: ";
+    cout << "Enter the name of the movie: ";
     cin >> movie;
     Actor actor(name, age, movie);
     cout << endl;
 
-    cout << "Введіть ім'я учасника КВН: ";
+    cout << "Enter the name of the KVN participant: ";
     cin >> name;
-    cout << "Введіть вік учасника КВН: ";
+    cout << "Enter the age of the KVN participant: ";
     cin >> age;
-    cout << "Введіть фільм учасника КВН: ";
+    cout << "Enter the film of the KVN participant: ";
     cin >> movie;
-    cout << "Введіть команду учасника КВН: ";
+    cout << "Enter the team of the KVN participant: ";
     cin >> team;
     KvnParticipant participant(name, age, movie, team);
     cout << endl;

@@ -7,11 +7,11 @@ Actor::Actor(const string& name, int age, const string& movie)
 
 void Actor::display() {
     Student::display();
-    cout << "Фільм: " << movie << endl;
+    cout << "Film: " << movie << endl;
 }
 
 void Actor::writeToFile(std::ofstream& file) {
-    file << "Актор" << endl;
+    file << "Actor" << endl;
     Student::writeToFile(file);
-    file << "Фільм: " << movie << endl;
+    file << "Film: " << movie << endl;
 }

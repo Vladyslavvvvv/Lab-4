@@ -7,11 +7,11 @@ KvnParticipant::KvnParticipant(const string& name, int age, const string& movie,
 
 void KvnParticipant::display() {
     Actor::display();
-    cout << "Команда: " << team << endl;
+    cout << "Team: " << team << endl;
 }
 
 void KvnParticipant::writeToFile(ofstream& file) {
-    file << "Учасник КВН" << endl;
+    file << "Participant of KVN" << endl;
     Actor::writeToFile(file);
-    file << "Команда: " << team << endl;
+    file << "Team: " << team << endl;
 }
